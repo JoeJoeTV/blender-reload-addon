@@ -12,4 +12,4 @@ blender -b -P reload_addons.py
 
 ## Usage
 
-This addon provides two commands, "Reload All Addons" and "Reload Enabled Addons" which can be accessed from the Blender menu in the topbar under System, or through the tool search bar. This will search the user addons directory (default `~/src/Blender`, configurable in Preferences -> Addons -> Reload Addons) for addon sources, install them and reload them in Blender's interpreter.
+The addon can be used with the two commands it provides, "Reload All Addons" and "Reload Enabled Addons" which can be accessed from the Blender menu in the topbar under System, or through the tool search bar. This will search the user addons directory (default `~/src/Blender`, configurable in Preferences -> Addons -> Reload Addons) for addon sources (python modules), install them and reload them in Blender's interpreter.
