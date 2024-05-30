@@ -4,7 +4,7 @@ An addon for [Blender](https://blender.org) that allows reloading addons while d
 
 ## Installation
 
-It is recommended to use the provided Reloader addon to install and reload development addons. The Reloader addon can be installed by executing `reload_addons.py` file under Blender's python interpreter:
+The Reloader addon can be installed by installing the `reload_addons.py` file or the ZIP file found under Releases using the Blender GUI or executing `reload_addons.py` file under Blender's python interpreter:
 
 ```sh
 blender -b -P reload_addons.py
