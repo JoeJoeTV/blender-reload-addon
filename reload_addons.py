@@ -12,7 +12,7 @@ bl_info = {
     "name": "Reload Addons",
     "author": "JoeJoeTV, John Kanji",
     "description": "Adds the ability to update an in-development addon from a source directory and reload it without restarting blender",
-    "version": (1, 1, 0),
+    "version": (1, 1, 1),
     "blender": (4, 0, 0),
     "location": "SpaceBar Search -> Reload All Addons",
     "category": "Development",
