@@ -60,7 +60,7 @@ def reload_addons(op, only_enabled=True):
         # Save preferences of addon, since they get reset when disabling and re-enabling
         addon_prefs = {}
 
-        if bpy.context.preferences.addons[a].preferences:
+        if (a in enabled_addons) and bpy.context.preferences.addons[a].preferences:
             addon_prefs = dict(bpy.context.preferences.addons[a].preferences.items())
 
         op.report({'DEBUG'}, f"Copying source code for addon '{a}'...")
